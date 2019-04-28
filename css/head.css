@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 1.384615rem;
+    background: #fff;
+    border-bottom: 0.030769rem solid #f5f6f8 ;
+    line-height: 1.384615rem;
+    text-align: center;
+}
+#header .tit{
+    font-size: 0.492307rem;
+    padding-right: 0.461538rem;
+}
+.am-icon-angle-down{
+    color: #0498fa;
+    margin-left: 0.307692rem;
+}
+.am-icon-pencil-square-o{
+    float: right;
+}

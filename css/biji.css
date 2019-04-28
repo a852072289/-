@@ -1,0 +1,76 @@
+.mubu{
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    display:none;
+}
+.dsnone{
+    height: 4.935185rem;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    display:none;
+}
+.xians{
+    height: 1.018518rem;
+    color: #c9c9c9;
+    font-size: 0.324074rem;
+    line-height: 1.018518rem;
+    padding-left: 0.444444rem;
+}
+.xuanzhe{
+    padding-left: 0.416666rem;
+}
+.xuanzhe li{
+    background: #f5f6f8;
+    font-size: 0.351851rem;
+    color: #000000;
+    width: 2.916666rem;
+    height: 1.018518rem;
+    border-radius: 0.138888rem;
+    float: left;
+    margin-right: 0.231481rem;
+    margin-bottom: 0.277777rem;
+    text-align: center;
+    line-height: 1.018518rem;
+}
+.xuanzhe li.active{
+    color: #078cd9;
+}
+.xuanzhe li.abnormal{
+    background: #fff;
+    color: #078CD9;
+    border: 0.018518rem solid #c9ffff;
+}
+.nav{
+    height: 14.305555rem;
+}
+.txt{
+    height: 1.481481rem;
+    font-size: 0.444444rem;
+    border-bottom: 0.25rem solid #f5f6f8;
+}
+.txt span{
+    background: url(../images/1.png);
+    width: 0.648148rem;
+    height: 0.648148rem;
+    display: inline-block;
+    background-size: 0.648148rem 0.648148rem;
+    position: relative;
+    left: 0.37037rem;
+    top:0.416666rem;
+}
+.txt i{
+    position: relative;
+    top: 0.231481rem;
+    left:0.74074rem;
+    font-style: normal;
+}
+.content{
+    min-height: 12.657407rem;
+}
+.nav .nomal{
+    
+}
