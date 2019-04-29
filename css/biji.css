@@ -9,9 +9,12 @@
 .dsnone{
     height: 4.935185rem;
     background: #fff;
-    position: relative;
+    position: absolute;
     z-index: 1;
     display:none;
+}
+.active_b{
+    display: block;
 }
 .xians{
     height: 1.018518rem;
@@ -45,11 +48,12 @@
     border: 0.018518rem solid #c9ffff;
 }
 .nav{
-    height: 14.305555rem;
+    min-height: 15.305555rem;
 }
 .txt{
     height: 1.481481rem;
     font-size: 0.444444rem;
+    background: #FFFFFF;
     border-bottom: 0.25rem solid #f5f6f8;
 }
 .txt span{
@@ -69,8 +73,124 @@
     font-style: normal;
 }
 .content{
-    min-height: 12.657407rem;
+    min-height: 13.657407rem;
+    background: #FFFFFF;
 }
 .nav .nomal{
-    
+    display: flex;
+   align-items: center;
+    justify-content: center;  
+}
+.nomal .wu{
+    font-size: 0.416666rem;
+    display: none;
+}
+.wu span{
+    color: #3590bf;
+}
+.content .item{
+    width: 100%;
+    display: none;
+}
+.content .item li{
+    height:12.703703rem;
+    width: 100%;
+    padding-left: 0.37037rem;
+}
+.content .item li .top{
+    height: 1.898148rem;
+    display: flex;
+    align-items: center;
+}
+.item li .top div{
+    margin-right: 0.277777rem;
+}
+.item li .top .himg{
+    background: url(../images/himg.jpg);
+    width: 1.064814rem;
+    height: 1.064814rem;
+    border-radius: 0.046296rem;
+    background-size: 100%;
+}
+.item li .top .urname{
+    font-size: 0.37037rem;
+    color: #3590bf;
+}
+.item li .top .fs{
+    width: 0.601851rem;
+    height: 0.601851rem;
+    background: url(../images/fengsan.png) no-repeat;
+    background-size: 100%;
+}
+.item li .top .star span{
+    width: 0.37037rem;
+    height: 0.37037rem;
+}
+.item li .top .star span img{
+    width: 0.37037rem;
+    height: 0.37037rem;
+}
+.item li .top .guanzu{
+    width: 0.925925rem;
+    height: 0.444444rem;
+    border: 0.009259rem solid #009CDA;
+    border-radius: 0.092592rem;
+    color: #009CDA;
+    font-size: 0.305555rem;
+    line-height: 0.444444rem;
+    text-align: center;
+}
+.item li .text{
+    height: 3.425925rem;
+}
+.item li .text .tit{
+    font-size: 0.462962rem;
+    font-weight: 700;
+    margin-bottom: 0.509259rem;
+}
+.item li .text p{
+    height: 1.555555rem;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-indent: 1em;
+    color: #252525;
+    font-size: 0.388888rem;
+}
+.item li .six{
+    height: 6.064814rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.item li .six .siximg{
+    width: 2.962962rem;
+    height: 2.962962rem;
+    margin-right: 0.148148rem;
+    margin-bottom: 0.148148rem;
+}
+.item li .six .siximg img{
+    width: 2.962962rem;
+    height: 2.962962rem;   
+}
+.item li .bom{
+    height: 0.972222rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item li .bom div{
+    width: 2.944444rem;
+    text-align: center;
+    color: #474747;
+    font-size: 0.296296rem;
+}
+.zhanwei{
+    height: 1.453703rem;
+    display: none;
+}
+.nomal .active_b{
+    display: block;
 }

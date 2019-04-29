@@ -4,17 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/amazeui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
     <link rel="stylesheet" type="text/css" href="../css/head.css"/>
     <link rel="stylesheet" type="text/css" href="../css/biji.css"/>
     <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
     <script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../js/amazeui.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/bj.js"></script>
 	<title>笔记</title>
 </head>
 <body>
 	<header id="header">
-        <div class="tit">我的<span class="am-icon-angle-down am-icon-sm"></span><span class="am-icon-pencil-square-o am-icon-sm"></span></div>
+        <div class="tit"><span class="tab_t">我的</span><span class="mui-icon mui-icon-arrowdown"></span><span class="mui-icon mui-icon-compose"></span></div>
     </header>
     <div class="mubu"></div>
     <div class="dsnone">
@@ -31,8 +32,488 @@
     </div>
     <div class="nav">
         <div class="txt"><span></span><i>笔记本</i></div>
-        <div class="content nomal"></div>
+        <div class="content nomal">
+            <div class="wu active_b">暂无笔记，点击右上角<span>写笔记</span></div>
+            <ul class="item item0">
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="item item1">
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="item item3">
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="item item4">
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="item item5">
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="top">
+                        <div class="himg"></div>
+                        <div class="urname">朱乐三</div>
+                        <div class="fs"></div>
+                        <div class="star">
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staron.png" alt=""></span>
+                            <span><img src="../images/staroff.png" alt=""></span>
+                        </div>
+                        <div class="guanzu">关注</div>
+                    </div>
+                    <div class="text">
+                        <div class="tit">超市是他的画布<br>&nbsp;&nbsp;—布伦希尔德画集欣赏</div>
+                        <p>1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）1、-webkit-line-clamp:2; （用来限制在一个块元素显示的文本的行数,2表示最多显示2行。 为了实现该效果，它需要组合其他的WebKit属性）</p>
+                    </div>
+                    <div class="six">
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                        <div class="siximg"><img src="../images/six.jpg" alt=""></div>
+                    </div>
+                    <div class="bom">
+                        <div class="pinlun"><span class="mui-icon mui-icon-chatbubble"></span>117</div>
+                        <div class="dianzan"><span class="mui-icon mui-icon-paperplane"></span>456</div>
+                        <div class="zhuanfa"><span class="mui-icon mui-icon-checkmarkempty"></span>123</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <footer class="footer"></footer>
+    <div class="zhanwei"></div>
+    <nav class="mui-bar mui-bar-tab footer">
+    	<a class="mui-tab-item">
+    		<span class="mui-icon mui-icon-home"></span>
+    		<span class="mui-tab-label">首页</span>
+    	</a>
+    	<a class="mui-tab-item">
+    		<span class="mui-icon mui-icon-chatbubble"></span>
+    		<span class="mui-tab-label">消息</span>
+    	</a>
+    	<a class="mui-tab-item mui-active">
+    		<span class="mui-icon mui-icon-compose"></span>
+    		<span class="mui-tab-label">笔记</span>
+    	</a>
+    	<a class="mui-tab-item">
+    		<span class="mui-icon mui-icon-person"></span>
+    		<span class="mui-tab-label">我</span>
+    	</a>
+    </nav>
 </body>
 </html>
