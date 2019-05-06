@@ -1,0 +1,59 @@
+#header .mui-icon-plusempty{
+    font-size: 0.855555rem;
+    position:absolute;
+    right: 0.37037rem;
+    top: 0;
+}
+#header .mui-pull-left{
+    color: #000000;
+    position:relative;
+    top: 0.138888rem;
+}
+.newcontent{
+    background: #fff;
+}
+.newcontent ul li{
+    height: 2.037037rem;
+}
+.mui-table-cell{
+   display: flex;
+   align-items: center; 
+}
+.new_img_head{
+    height: 1.148148rem;
+    width: 1.148148rem;
+    border-radius: 50%;
+} 
+.mui-table-view-cell>.mui-slider-right{
+        right: 0;
+    -webkit-transition: -webkit-transform 0ms ease;
+    transition: transform 0ms ease;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+.mui-table-view-cell>.mui-slider-left>.mui-btn, .mui-table-view-cell>.mui-slider-right>.mui-btn{
+    padding: 0 0.185185rem;
+}
+.cy_tit{
+    font-size:0.37037rem;
+    margin-left: 0.462962rem;
+}
+.neirong{
+    display: block;
+    font-size:0.324074rem;
+    color: #cdcdcd;
+    margin-top: 0.124074rem;
+}
+.ssk{
+    display: flex;
+    justify-content: center;
+    height: 1.481481rem;
+    align-items: center;
+}
+.ssk .mui-input-clear{
+    margin: 0;
+    width: 9.074074rem;
+}
+.mui-table-view:before{
+    display: none;
+}
