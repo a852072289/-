@@ -22,8 +22,9 @@
     	    <i class="yqm">
     	        <div>
     	            <ul class="pop">
-    	                <li>扫一扫</li>
-    	                <li>邀请码</li>
+    	                <li>新建课程</li>
+    	                <li>自选课程</li>
+                        <li>导入课程</li>
     	            </ul>
     	        </div>
     	    </i>  
@@ -85,4 +86,16 @@
         </ul>
     </div>
 </body>
+<script>
+        $(function(){
+            $('.tab_t .mui-icon').on('tap',function(){
+                console.log(1)
+                if ($('.pop').attr('class').length==3) {
+                    $('.pop').addClass('active')
+                }else{
+                    $('.pop').removeClass('active')
+                }
+            }) 
+        })
+    </script>
 </html>

@@ -1,0 +1,69 @@
+.ssk{
+    display: flex;
+    justify-content: center;
+    height: 1.481481rem;
+    align-items: center;
+}
+.ssk .mui-input-clear{
+    margin: 0;
+    width: 9.074074rem;
+    border-radius: 0.462962rem 0.462962rem;
+}
+.daohang{
+    font-size: 0.37037rem;
+    color: #069afa;
+}
+.newcontent{
+    background: #fff;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+    position: relative;
+}
+.mui-slider{
+    margin-top: 0.092592rem;
+}
+.mui-control-item{
+    font-size: 0.388888rem;
+}
+.qie .mui-active::before{
+    content: '';
+    width: 0.925925rem;
+    height: 0.046296rem;
+    background: #007AFF;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 29%;
+}
+.zyzt li{
+    min-height: 1.712962rem;
+    display: flex;
+    align-items: center;
+}
+.mui-slider-group .mui-slider-item .zyzt li img{
+    width: 1.203703rem;
+    height: 1.203703rem;
+    border-radius: 5%;
+    margin-right: 0.277777rem;
+}
+.zyzt li .ar_name{
+    display: block;
+    font-size: 0.37037rem;
+    width: 6rem;
+    word-break: break-all;
+}
+.zyzt li .bzm_ys{
+    font-size: 0.351851rem;
+    color: #cecece;
+}
+.zyzt li .zy_sc{
+    width: 1.342592rem;
+    height: 0.648148rem;
+    display: inline-block;
+    border: 0.018518rem solid #0084C7;
+    border-radius: 10%;
+    margin-left: 0.462962rem;
+    color: #0084C7;
+    text-align: center;
+    line-height: 0.648148rem;
+}

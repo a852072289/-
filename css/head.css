@@ -14,6 +14,12 @@
     font-size: 0.492307rem;
     padding-right: 0.461538rem;
 }
+#header .tab_t{
+    display: flex;
+}
+#header .t_tit{
+    flex-grow: 1;
+}
 .mui-icon-arrowdown{
     color:#0f99f4 ;
 }
@@ -86,12 +92,12 @@
     transform: translateX(165%);
 }
 .pop{
-    height: 2.5rem;
+    /* height: 2.5rem; */
     width: 2rem;
-    position: relative;
+    position: absolute;
     z-index: 3;
-    left: 40%;
-    top: -0.277777rem;
+    left: 3.903703rem;
+    top: -0.7rem;
     background: #fff;
     border-radius: 10%;
     box-shadow: 0.027777rem 0.027777rem 0.027777rem 0.027777rem rgba(0,0,0,.5);
