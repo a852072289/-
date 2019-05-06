@@ -15,10 +15,68 @@
 </head>
 <body>
 	<header id="header">
-	    <div class="tit"><span class="tab_t">首页<span class="mui-icon iconfont icon-xiazai"></span></div>
+	    <div class="tit"><span class="tab_t">首页<span class="mui-icon iconfont icon-552dc065f0478"></span><i class="yqm"><span>邀请码</span>
+                <div>
+                    <ul class="pop">
+                        <li>扫一扫</li>
+                        <li>邀请码</li>
+                    </ul>
+                </div>
+            </i>         
+        </div>
 	</header>
+    <div class="cont">
+        <nav class="soushuo">
+            <div class="mui-input-row mui-search">
+            	<input type="search" class="mui-input-clear" placeholder="搜索框">
+            </div>
+            <nav class="tbiao">
+                <ul>
+                	<li><i class="mui-icon iconfont icon-boshimao"></i><span>课程</span></li>
+                    <li><i class="mui-icon iconfont icon-wenjianjia"></i><span>资源</span></li>
+                    <li><i class="mui-icon iconfont icon-lianggeren"></i><span>活动</span></li>
+                    <li><i class="mui-icon iconfont icon-add-menu"></i><span>更多</span></li>
+                </ul>
+            </nav>
+        </nav>
+        <nav class="recently"><span>最近使用</span><i class="mui-icon mui-icon-arrowright"></i></nav>
+        <nav class="recently_content">
+            <ul>
+                <li>
+                    <img src="./images/head1.jpg" alt="" class="img_head">
+                    <div><span class="cy_tit">在线客服<span class="smicon">小组</span></span><span class="common">+常用</span></div>
+                </li>
+                <li>
+                    <img src="./images/head2.jpg" alt="" class="img_head">
+                    <div><span class="cy_tit">心理学基础<span class="smicon">小组</span></span><span class="common">+常用</span></div>
+                </li>
+                <li>
+                    <img src="./images/head3.jpg" alt="" class="img_head">
+                    <div><span class="cy_tit">考古发现与探索<span class="smicon">小组</span></span><span class="common">+常用</span></div>
+                </li>
+            </ul>
+        </nav>
+        <nav class="recently"><span>推荐</span><i class="mui-icon mui-icon-loop">换一批</i></nav>
+        <nav class="recently_content">
+            <ul>
+                <li>
+                    <img src="./images/head4.jpg" alt="" class="img_head">
+                    <div><span class="cy_tit">网恋教父<span class="neirong">网恋选我我超甜  又有感情又有钱</span></span><span class="mui-icon mui-icon-arrowright"></span></div>
+                </li>
+                <li>
+                    <img src="./images/head5.jpg" alt="" class="img_head">
+                    <div><span class="cy_tit">表彰大会<span class="neirong"></span></span><span class="mui-icon mui-icon-arrowright"></span></div>
+                </li>
+                <li>
+                    <img src="./images/head6.jpg" alt="" class="img_head">
+                    <div><span class="cy_tit">考古发现与探索<span class="neirong">我只是一个考古学家</span></span><span class="mui-icon mui-icon-arrowright"></span></div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="zhanwei"></div>
     <nav class="mui-bar mui-bar-tab footer">
-    	<a class="mui-tab-item">
+    	<a class="mui-tab-item mui-active">
     		<span class="mui-icon mui-icon-home"></span>
     		<span class="mui-tab-label">首页</span>
     	</a>
@@ -26,7 +84,7 @@
     		<span class="mui-icon mui-icon-chatbubble"></span>
     		<span class="mui-tab-label">消息</span>
     	</a>
-    	<a class="mui-tab-item mui-active">
+    	<a class="mui-tab-item">
     		<span class="mui-icon mui-icon-compose"></span>
     		<span class="mui-tab-label">笔记</span>
     	</a>
@@ -35,5 +93,16 @@
     		<span class="mui-tab-label">我</span>
     	</a>
     </nav>
+    <script>
+        $(function(){
+            $('.tab_t .mui-icon').on('tap',function(){
+                if ($('.pop').attr('class').length==3) {
+                    $('.pop').addClass('active')
+                }else{
+                    $('.pop').removeClass('active')
+                }
+            }) 
+        })
+    </script>
 </body>
 </html>

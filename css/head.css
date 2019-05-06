@@ -8,6 +8,7 @@
     border-bottom: 0.030769rem solid #f5f6f8 ;
     line-height: 1.384615rem;
     text-align: center;
+    position: relative;
 }
 #header .tit{
     font-size: 0.492307rem;
@@ -23,6 +24,26 @@
     right: 0.407407rem;
     top: 0.277777rem;
 }
+#header .icon-552dc065f0478{
+    font-size: 0.755555rem;
+    position:absolute;
+    right: 0.37037rem;
+    top: 0.231481rem;
+}
+#header .mui-icon-plusempty{
+    font-size: 0.755555rem;
+    position:absolute;
+    right: 0.37037rem;
+    top: 0.231481rem;
+}
+#header .yqm{
+    font-size: 0.24074rem;
+    position:relative;
+    top: 0.416666rem;
+    left: 42%;
+    font-style: normal;
+    height: 0.185185rem;
+}
 .footer{
     height: 1.453703rem;
 }
@@ -31,4 +52,13 @@
 }
 .footer .mui-tab-label{
     font-size: 0.222222rem;
+}
+.mui-bar-tab .mui-tab-item .mui-icon{
+    left: -0.037037rem;
+}
+.zhanwei{
+    height: 1.453703rem;
+}
+.icon-boshimao{
+    color: #00c7aa;
 }

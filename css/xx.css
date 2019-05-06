@@ -1,0 +1,125 @@
+.pop{
+    height: 2.5rem;
+    width: 2rem;
+    position: relative;
+    z-index: 3;
+    left: 40%;
+    top: -0.277777rem;
+    background: #fff;
+    border-radius: 10%;
+    box-shadow: 0.027777rem 0.027777rem 0.027777rem 0.027777rem rgba(0,0,0,.5);
+    display: none;
+}
+.pop::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 0.185185rem solid #cdcdcd;
+    border-left: 0.185185rem solid transparent;
+    border-right: 0.185185rem solid transparent;
+    /* box-shadow: 0.027777rem 0.027777rem rgba(0,0,0,.5); */
+    position: absolute;
+    top: -0.185185rem;
+}
+.pop li{
+    height: 1.25rem;
+    text-align: center;
+    line-height: 1.25rem;
+    font-size: 0.37037rem;
+}
+.pop li:nth-of-type(1){
+    border: 0.018518rem solid #ccc;
+}
+.content{
+    min-height: 15.305555rem;
+}
+.cont_t{
+    height: 14.166666rem;
+    background: #fff;
+    padding-top: 0.277777rem;
+}
+.search_xx{
+    display: flex;
+    justify-content: center;
+}
+.search_xx input{
+    width: 8.611111rem;
+    height: 0.925925rem;
+}
+.xx_time{
+    color: #ccc;
+}
+.recently_content{
+    /* height: 5.694444rem; */
+    background: #fff;
+    padding-top: 0.185185rem;
+    padding-left: 0.388888rem;
+}
+.recently_content ul li{
+    height: 1.759259rem;
+    display: flex;
+    align-items: center;
+}
+.recently_content .img_head{
+    width: 1.111111rem;
+    height: 1.111111rem;
+    border-radius: 0.046296rem;
+}
+.recently_content ul li div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7.824074rem;
+    border-bottom: 0.018518rem solid #ebebeb;
+    height: 1.759259rem;
+}
+.recently_content ul li:last-of-type div{
+    border: none;
+}
+.recently_content .cy_tit{
+    font-size: 0.435185rem;
+    margin-left: 0.277777rem;
+}
+.recently_content .cy_tit .smicon{
+    margin-left: 0.231481rem;
+    display: inline-block;
+    width: 0.777777rem;
+    height: 0.444444rem;
+    font-size: 0.324074rem;
+    color: #cacaca;
+    border: 0.018518rem solid #cacaca;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 0.444444rem;
+}
+.recently_content .common{
+    width: 1.388888rem;
+    height: 0.648148rem;
+    border: 0.018518rem solid #15a8ff;
+    border-radius: 15%;
+    font-size: 0.37037rem;
+    text-align: center;
+    color: #15A8FF;
+    line-height: 0.648148rem;
+}
+.recently .mui-icon{
+    font-size: 0.37rem;
+}
+.recently_content .cy_tit .neirong{
+    display: block;
+    font-size: 0.324074rem;
+    color: #cdcdcd;
+    margin-top: 0.124074rem;
+}
+.kenen{
+    height: 1.018518rem;
+    background: #ebecee;
+    font-size: 0.37037rem;
+    padding-left: 0.462962rem;
+    color: #656766;
+    display: flex;
+    align-items: center;
+}
+.li_btm{
+    margin-bottom: 1.45rem;
+}

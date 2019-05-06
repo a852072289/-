@@ -1,0 +1,82 @@
+.content{
+    min-height: 15.305555rem;
+}
+.content .cont1{
+    height: 2.453703rem;
+    background: #fff;
+    margin-top: 0.231481rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    padding-right: 0.277777rem;
+}
+.content .pphead{
+    width: 1.574074rem;
+    height: 1.574074rem;
+    background: url(../images/head1.gif);
+    border-radius: 50%;
+    flex-grow: 0;
+}
+.content .ppname{
+    font-size: 0.444444rem;
+    margin-left: 0.462962rem;
+    flex-grow: 0;
+}
+.content .ppname .name_icon{
+    background: url(../images/fengsan.png) no-repeat;
+    margin-left: 0.231481rem;
+    display: inline-block;
+    width: 0.277777rem;
+    height: 0.277777rem;
+    background-size: 100%;
+}
+.content .cont1 .mui-icon{
+    flex-grow: 2;
+    text-align: right;
+}
+.list{
+    margin-top: 0.231481rem;
+    background: #FFFFFF;
+    padding-left: 0.601851rem;
+}
+.list li{
+    height: 1.481481rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 0.231481rem;
+}
+.list li .mui-icon{
+    font-size: 0.74074rem;
+}
+.list li .name_q{
+    font-size: 0.388888rem;
+    margin-left: 0.462962rem;
+}
+.list li .mui-icon-arrowright{
+    flex-grow: 2;
+    text-align: right;
+}
+.icon-hua{
+    color: #33adff;
+}
+.icon-shu{
+    color: #D7342E;
+}
+.icon-dengpao{
+    color: #F59490;
+}
+.icon-tiaozhan{
+    color: #0084C7;
+}
+.mui-icon-gear{
+    color: #999999;
+}
+.pc{
+    height: 1.805555rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
