@@ -9,7 +9,11 @@
     line-height: 1.384615rem;
     text-align: center;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 #header .tit{
     font-size: 0.492307rem;
     padding-right: 0.461538rem;
@@ -122,4 +126,7 @@
 }
 .pop li:nth-of-type(1){
     border: 0.018518rem solid #ccc;
+}
+.newcontent{
+    background:#fff;
 }

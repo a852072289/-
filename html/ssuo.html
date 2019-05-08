@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" href="../css/ss.css">
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+		<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.min.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav" id="header">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<div class="tit">
+			    <div class="tab_t">
+		            <span class="t_tit">搜索</span>
+			    </div>
+			</div>
+            <div></div>
+		</header>
+        <div class="newcontent">
+            <div class="ssk">
+                <div class="mui-input-row mui-search">
+                	<input type="search" class="mui-input-clear" placeholder="搜索">
+                </div>           
+            </div>
+            <div class="late">
+                <ul>
+                    <li><span>最近搜索</span><span class="mui-icon mui-icon-trash"></span></li>
+                </ul>
+            </div>
+        </div>
+	</body>
+    <script>
+        mui.init();
+        mui.ready(function () {
+        	var nativeWebview, imm, InputMethodManager;  
+            var initNativeObjects = function() {  
+                if (mui.os.android) {  
+                    var main = plus.android.runtimeMainActivity();  
+                    var Context = plus.android.importClass("android.content.Context");  
+                    InputMethodManager = plus.android.importClass("android.view.inputmethod.InputMethodManager");  
+                    imm = main.getSystemService(Context.INPUT_METHOD_SERVICE);  
+                } else {  
+                    nativeWebview = plus.webview.currentWebview().nativeInstanceObject();  
+                }  
+            };  
+            var showSoftInput = function() {  
+            var nativeWebview = plus.webview.currentWebview().nativeInstanceObject();  
+            if (mui.os.android) {  
+                //强制当前webview获得焦点  
+                plus.android.importClass(nativeWebview);  
+                nativeWebview.requestFocus();  
+                imm.toggleSoftInput(0, InputMethodManager.SHOW_FORCED);  
+            } else {  
+                nativeWebview.plusCallMethod({  
+                    "setKeyboardDisplayRequiresUserAction": false  
+                });  
+            }  
+            setTimeout(function() {  
+               //此处可写具体逻辑设置获取焦点的input  
+               var inputElem = document.querySelector('.mui-input-clear');  
+                      inputElem.focus();   
+            }, 200);  
+        };    
+            mui.plusReady(function() {  
+                initNativeObjects();  
+                showSoftInput();  
+            }); 
+        })
+    </script>
+</html>
