@@ -15,21 +15,24 @@
 	</head>
 
 	<body>
-    <header id="header">
-	    <div class="tit">
-            <span class="tab_t">消息
-            <span class="mui-icon mui-icon-plusempty"></span>
-            <i class="yqm">
-                <div>
-                    <ul class="pop">
-                        <li>扫一扫</li>
-                        <li>邀请码</li>
-                    </ul>
-                </div>
-            </i>  
-            </span>
+    <header class="mui-bar mui-bar-nav" id="header">
+        <a class=""></a>
+        <div class="tit">
+            <div class="tab_t">
+                <span class="t_tit">课程</span>
+            </div>
         </div>
-	</header>
+        <div>
+            <span class="mui-icon mui-icon-plusempty mui-icon1"></span>
+            <i class="yqm">  	        
+    	            <ul class="pop">
+    	                <li>新建课程</li>
+    	                <li>自选课程</li>
+                        <li>导入课程</li>
+    	            </ul>
+                </i> 
+        </div>
+    </header>
     <div class="content">
         <div class="cont_t">
             <div class="mui-input-row mui-search search_xx">
@@ -160,7 +163,7 @@
     </nav>
     <script>
         $(function(){
-            $('.tab_t .mui-icon').on('tap',function(){
+            $('.mui-icon1').on('tap',function(){
                 console.log(1)
                 if ($('.pop').attr('class').length==3) {
                     $('.pop').addClass('active')

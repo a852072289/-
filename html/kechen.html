@@ -15,21 +15,22 @@
 </head>
 <body>
     <header class="mui-bar mui-bar-nav" id="header">
-    	<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-    	<div class="tit">
-    	    <span class="tab_t">课程
-    	    <span class="mui-icon mui-icon-plusempty"></span>
-    	    <i class="yqm">
-    	        <div>
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <div class="tit">
+            <div class="tab_t">
+                <span class="t_tit">课程</span>
+            </div>
+        </div>
+        <div>
+            <span class="mui-icon mui-icon-plusempty mui-icon1"></span>
+            <i class="yqm">  	        
     	            <ul class="pop">
     	                <li>新建课程</li>
     	                <li>自选课程</li>
                         <li>导入课程</li>
     	            </ul>
-    	        </div>
-    	    </i>  
-    	    </span>
-    	</div>
+                </i> 
+        </div>
     </header>
     <div class="newcontent">
         <div class="ssk">
@@ -88,7 +89,7 @@
 </body>
 <script>
         $(function(){
-            $('.tab_t .mui-icon').on('tap',function(){
+            $('.mui-icon1').on('tap',function(){
                 console.log(1)
                 if ($('.pop').attr('class').length==3) {
                     $('.pop').addClass('active')

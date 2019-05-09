@@ -50,7 +50,7 @@
     font-size: 0.24074rem;
     position:relative;
     top: 0.416666rem;
-    left: 42%;
+    left: 0%;
     font-style: normal;
     height: 0.185185rem;
 }
@@ -98,10 +98,10 @@
 .pop{
     /* height: 2.5rem; */
     width: 2rem;
-    position: absolute;
+    position: relative;
     z-index: 3;
-    left: 3.903703rem;
-    top: -0.7rem;
+    left: 0.19rem;
+    top: 2rem;
     background: #fff;
     border-radius: 10%;
     box-shadow: 0.027777rem 0.027777rem 0.027777rem 0.027777rem rgba(0,0,0,.5);

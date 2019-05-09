@@ -9,6 +9,9 @@
     position:relative;
     top: 0.138888rem;
 }
+#header .yqm {
+    left: 0;
+}
 .newcontent{
     background: #fff;
 }

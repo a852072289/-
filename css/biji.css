@@ -6,6 +6,13 @@
     z-index: 0;
     display:none;
 }
+#header{
+    justify-content: space-around;
+}
+.tab_t{
+    display: flex;
+    align-items: center;
+}
 .dsnone{
     height: 4.935185rem;
     background: #fff;

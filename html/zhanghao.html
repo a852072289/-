@@ -3,7 +3,111 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" href="../css/zhanghao.css">
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+		<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.min.js"></script>
 	</head>
 	<body>
+        <header class="mui-bar mui-bar-nav" id="header">
+            <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+            <div class="tit">
+                <div class="tab_t">
+                    <span class="t_tit">账号管理</span>
+                </div>
+            </div>
+            <div></div>
+        </header>
+        <div class="newcontent">
+            <ul class="zh_t">
+                <li class="xz1">
+                    <div class="zhimg">
+                        <span>头像</span>
+                        <img src="../images/head10.jpg" alt="">
+                    </div>
+                    <span class="mui-icon mui-icon-arrowright"></span>
+                </li>
+                <li>
+                    <div class="zhname">
+                        <span>姓名</span>
+                        <span class="zhnamecoo">陈一只</span>
+                    </div>
+                    <span class=""></span>
+                </li>
+                <li>
+                    <div class="zhname">
+                        <span>性别</span>
+                        <span class="zhsex">男</span>
+                    </div>
+                    <span class="mui-icon mui-icon-arrowright"></span>
+                </li>
+                <li>
+                    <div class="zhname">
+                        <span>描述</span>
+                    </div>
+                    <span class="mui-icon mui-icon-arrowright"></span>
+                </li>
+            </ul>
+            <ul class="zh_md">
+                <li>
+                    <div class="zhname">
+                        <span>手机号</span>
+                        <span class="hma">13712349876</span>
+                    </div>
+                    <span class="mui-icon mui-icon-arrowright"></span>
+                </li>
+                <li>
+                    <div class="zhname">
+                        <span>五月雨毒奶粉技术学院</span>
+                        <span class="xueh">学号/工号：402704515</span>
+                    </div>
+                    <span class="mui-icon mui-icon-arrowright"></span>
+                </li>
+            </ul>
+            <ul class="zh_md">
+                <li>
+                    <div class="zhname">
+                        <span>钱包</span>
+                    </div>
+                    <span class="mui-icon mui-icon-arrowright1">10000000000元</span>
+                </li>
+            </ul>
+            <div class="brake">退出登录</div>
+        </div>
+        <div class="mui-backdrop dsno"></div>
+        <div class="dead dsno">
+            <ul>
+                <li>拍照</li>
+                <li>从相册选择</li>
+                <li>查看原图</li>
+                <li>取消</li>
+            </ul>
+        </div>
 	</body>
+    <script type="text/javascript">
+    	mui.init();
+        $('.xz1').on('tap',function(){
+            dian();
+        })
+        $('.mui-backdrop').on('tap',function(){
+            dian();
+        })
+        function dian(){
+            if ($('.dead').attr('class').length==9) {
+            	$('.mui-backdrop').removeClass('dsno');
+                $('.dead').removeClass('dsno');
+                $('.mui-backdrop').addClass('active_o')
+                $('.dead').addClass('active_o')
+            } else{
+            	$('.mui-backdrop').removeClass('active_o');
+            	$('.dead').removeClass('active_o');
+            	$('.mui-backdrop').addClass('dsno')
+            	$('.dead').addClass('dsno')
+            }
+        }
+    </script>
 </html>
