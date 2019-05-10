@@ -504,22 +504,28 @@
     </div>
     <div class="zhanwei"></div>
     <nav class="mui-bar mui-bar-tab footer">
-    	<a class="mui-tab-item">
+    	<a class="mui-tab-item" href="../index.html">
     		<span class="mui-icon mui-icon-home"></span>
     		<span class="mui-tab-label">首页</span>
     	</a>
-    	<a class="mui-tab-item">
+    	<a class="mui-tab-item" href="./xx.html">
     		<span class="mui-icon mui-icon-chatbubble"></span>
     		<span class="mui-tab-label">消息</span>
     	</a>
-    	<a class="mui-tab-item mui-active">
+    	<a class="mui-tab-item mui-active" href="./biji.html">
     		<span class="mui-icon mui-icon-compose"></span>
     		<span class="mui-tab-label">笔记</span>
     	</a>
-    	<a class="mui-tab-item">
+    	<a class="mui-tab-item" href="./wd.html">
     		<span class="mui-icon mui-icon-person"></span>
     		<span class="mui-tab-label">我</span>
     	</a>
+    	</a>
     </nav>
 </body>
+    <script>    
+    mui('body').on('tap','a',function(){
+                    window.top.location.href=this.href;
+                });
+    </script>
 </html>

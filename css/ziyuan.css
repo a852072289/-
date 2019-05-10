@@ -45,6 +45,10 @@
     height: 1.203703rem;
     border-radius: 5%;
     margin-right: 0.277777rem;
+    flex-grow: 0;
+}
+.zyzt li div{
+    flex-grow: 1;
 }
 .zyzt li .ar_name{
     display: block;
@@ -66,4 +70,5 @@
     color: #0084C7;
     text-align: center;
     line-height: 0.648148rem;
+    flex-grow: 0;
 }

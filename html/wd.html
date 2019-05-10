@@ -60,7 +60,7 @@
               </div>
               <div class="cont4">
                   <ul class="list">
-                      <li>
+                      <li class="tz_sz">
                           <span class="mui-icon mui-icon-gear"></span>
                           <span class="name_q">设置</span>
                           <span class="mui-icon mui-icon-arrowright"></span>
@@ -70,24 +70,49 @@
               <div class="pc">电脑端：v.chaoxing.com</div>
           </nav>
           <nav class="mui-bar mui-bar-tab footer">
-          	<a class="mui-tab-item">
+          	<a class="mui-tab-item" href="../index.html">
           		<span class="mui-icon mui-icon-home"></span>
           		<span class="mui-tab-label">首页</span>
           	</a>
-          	<a class="mui-tab-item">
+          	<a class="mui-tab-item" href="./xx.html">
           		<span class="mui-icon mui-icon-chatbubble"></span>
           		<span class="mui-tab-label">消息</span>
           	</a>
-          	<a class="mui-tab-item">
+          	<a class="mui-tab-item" href="./biji.html">
           		<span class="mui-icon mui-icon-compose"></span>
           		<span class="mui-tab-label">笔记</span>
           	</a>
-          	<a class="mui-tab-item mui-active">
+          	<a class="mui-tab-item mui-active" href="./html/wd.html">
           		<span class="mui-icon mui-icon-person"></span>
           		<span class="mui-tab-label">我</span>
           	</a>
           </nav>
         
 	</body>
-
+    <script>
+        mui('.list').on('tap','.tz_sz',function(){
+            mui.openWindow({  
+                url: './shezhi.html',  
+                id: 'q1',  
+                styles: {  
+                },  
+                extras: {  
+                },
+                show: {  
+                    autoShow: true, //页面loaded事件发生后自动显示，默认为true  
+                    aniShow: 'slide-in-right', //页面显示动画，默认为”slide-in-right“；  
+                    duration: '400' //页面动画持续时间，Android平台默认100毫秒，iOS平台默认200毫秒；  
+                },  
+                waiting: {  
+                    autoShow: true, //自动显示等待框，默认为true  
+                    title: '正在加载...', //等待对话框上显示的提示内容  
+                    options: {  
+                    }  
+                }  
+            })  
+        })
+        mui('body').on('tap','a',function(){
+            window.top.location.href=this.href;
+        });
+    </script>
 </html>

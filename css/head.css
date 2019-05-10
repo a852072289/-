@@ -36,9 +36,9 @@
 }
 #header .icon-552dc065f0478{
     font-size: 0.755555rem;
-    position:absolute;
-    right: 0.37037rem;
-    top: 0.231481rem;
+    display: block;
+    position: absolute;
+    padding: 0;
 }
 #header .mui-icon-plusempty{
     font-size: 0.755555rem;

@@ -14,7 +14,8 @@
 .content .pphead{
     width: 1.574074rem;
     height: 1.574074rem;
-    background: url(../images/head1.gif);
+    background: url(../images/head1.gif) no-repeat;
+    background-position: 0 0;
     border-radius: 50%;
     flex-grow: 0;
 }

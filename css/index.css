@@ -1,6 +1,12 @@
 .cont{
     min-height: 15.305555rem;
 }
+.ar_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .soushuo{
     height: 4.444444rem;
     background: #FFF;

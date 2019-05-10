@@ -1,0 +1,99 @@
+.daohang{
+    color: #0099FF;
+}
+.mui-slider .mui-slider-indicator .mui-control-item{
+    font-size: 0.462962rem;
+    color: #a3a4a6;
+    height: 1.388888rem;
+    line-height: 1.388888rem;
+    position: relative;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    color: #000000;
+}
+.awsl .mui-active::after{
+    content: '';
+    width: 0.972222rem;
+    height: 0.027777rem;
+    background-color: #0062CC;
+    position: absolute;
+    left: 35%;
+    top: 93%;
+}
+.zyzt li{
+    min-height: 1.712962rem;
+    display: flex;
+    align-items: center;
+}
+.mui-slider-group .mui-slider-item .zyzt li img{
+    width: 1.203703rem;
+    height: 1.203703rem;
+    border-radius: 5%;
+    margin-right: 0.277777rem;
+    flex-grow: 0;
+}
+.zuoye{
+    width: 1.203703rem;
+    height: 1.203703rem;
+    border-radius: 5%;
+    margin-right: 0.277777rem;
+    flex-grow: 0;
+    background: #c4c9cc;
+    color: #FFFFFF;
+    font-size: 0.333333rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.zyzt li div{
+    flex-grow: 1;
+}
+.zyzt li .ar_name{
+    display: block;
+    font-size: 0.37037rem;
+    width: 6rem;
+    word-break: break-all;
+}
+.zyzt li .bzm_ys{
+    font-size: 0.351851rem;
+    color: #cecece;
+}
+.zyzt li .zy_sc{
+    width: 1.342592rem;
+    height: 0.648148rem;
+    display: inline-block;
+    border: 0.018518rem solid #0084C7;
+    border-radius: 10%;
+    margin-left: 0.462962rem;
+    color: #0084C7;
+    text-align: center;
+    line-height: 0.648148rem;
+    flex-grow: 0;
+}
+.last_of_last .mui-icon{
+    font-size: 0.685185rem;
+    margin-right: 0.185185rem;
+}
+.last_of_last .icon-pot{
+    color: #00C7AA;
+}
+.last_of_last .icon-dengpao{
+    color: #ffb938;
+}
+.last_of_last .icon-qiandao{
+    color: #32a8f0;
+}
+.last_of_last li div span.ar_name{
+    font-size: 0.455555rem;
+}
+.mui-slider {
+    position: absolute;
+    background: #f5f6f8;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-top: 1.5rem;
+}

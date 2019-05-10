@@ -39,7 +39,7 @@
             </div>           
         </div>
         <ul id="" class="mui-table-view">
-            <li class="mui-table-view-cell">
+            <li class="mui-table-view-cell tzsy">
                 <div class="mui-slider-right mui-disabled">
                     <a class="mui-btn mui-btn-yellow mui-icon">置顶</a>
                     <a class="mui-btn mui-btn-blue mui-icon">移动</a>
@@ -54,6 +54,29 @@
                     </div>
                 </div>
             </li>
+            <script>
+                 mui('.mui-table-view').on('tap','.tzsy',function(){
+                    mui.openWindow({  
+                        url: './kechengxq.html',  
+                        id: 'q5',  
+                        styles: {  
+                        },  
+                        extras: {  
+                        },
+                        show: {  
+                            autoShow: true, //页面loaded事件发生后自动显示，默认为true  
+                            aniShow: 'slide-in-right', //页面显示动画，默认为”slide-in-right“；  
+                            duration: '500' //页面动画持续时间，Android平台默认100毫秒，iOS平台默认200毫秒；  
+                        },  
+                        waiting: {  
+                            autoShow: true, //自动显示等待框，默认为true  
+                            title: '正在加载...', //等待对话框上显示的提示内容  
+                            options: {  
+                            }  
+                        }  
+                    })  
+                })
+            </script>
             <li class="mui-table-view-cell">
                 <div class="mui-slider-right mui-disabled">
                     <a class="mui-btn mui-btn-yellow mui-icon">置顶</a>
